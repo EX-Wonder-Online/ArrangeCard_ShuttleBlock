@@ -8,9 +8,9 @@ using UnityEngine;
 
 public class ShuttleSinLerpMove : MonoBehaviour
 {
-    Vector3 pos;
-    public Vector3 distinationPos;
-    float rate;
+    Vector3 pos; // 初期位置
+    public Vector3 distinationPos; // 目的地
+    float rate; // 0 ~ 1の間の数字をとる．
     public float moveTime; // 往復する時
 
     // Start is called before the first frame update
